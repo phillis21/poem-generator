@@ -1,3 +1,70 @@
-h1{
-    color: red;
+body {
+    background-color: #E5E5E5;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+    color:#C5BDB2;
+    font-weight: 700;
+}
+
+.container {
+    margin: 120px auto;
+    max-width: 600px;
+
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-weight: 800px;
+    font-size: 36px;
+    line-height: 1.5;
+
+}
+
+form {
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0px 20px 60px #E5E5E5;
+    display: flex;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.prompt {
+    padding: 15px;
+    border: 0.5px solid black;
+    width: 80%;
+    font-size: 15px;
+    border-radius: 40px;
+    line-height: 20px;
+    color: black;
+}
+
+.submit-button {
+    margin-left: 5px;
+    background-color: #C5BDB2;
+    border: none;
+    border-radius: 50px;
+    width: 130px;
+    padding: 14px 25px;
+    color: #E5E5E5;
+    font-weight: 600;
+
+}
+.poem{
+    font-size: 18px;
+    background-color: white;
+    padding:20px;
+    line-height: 24px;
+    border-left: 5px solid #C5BDB2;
+    box-shadow: 0px 20px 60px #E5E5E5;
+    border-radius: 20px;
+}
+
+footer{
+    text-align:center;
+    margin-top: 30px;
+    font-size: 12x;
 }
