@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css"/>
     <title>AI Poem Generator</title>
 </head>
@@ -12,7 +13,7 @@
 <body>
     <h1>Anna The Poem Generator</h1>
     <main>
-        <form>
+        <form id="poem-gen-form">
             <input type="text" 
             placeholder="Please enter your desired poem topic" 
             autofocus 
@@ -22,10 +23,8 @@
             />
             <input type="submit" class="submit-button"/>
         </form>
-        <div class="poem">
-            Sun of my soul oh Savior Dear,
+        <div class="poem" id="poem">
             <br/>
-            It is not night if thou be near
         </div>
     </main>
 
